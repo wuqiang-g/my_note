@@ -39,7 +39,7 @@
 </dependency>
 ```
 
-> groupId、artifactId、version ：简称gav，依赖在仓库中定位的三元组，groupId一般填写公司或者组织名，artifactId填写项目名，version则是这个项目的版本。当然还有一个name标签：只是一个名称，项目的全名称，可以是大写空格多个词，比如 Spring Boot Starter Parent，而 artifactId 是用来区分同一个groupId 下的子项目，比如前面对应的是 spring-boot-starter-parent。Ps：但是一般是实际使用中，我们可以把name的值赋成和artifactId一样的
+> groupId、artifactId、version ：简称gav，依赖在仓库中定位的三元组，groupId一般填写公司或者组织名，artifactId填写项目名，version则是这个项目的版本。当然还有一个name标签：只是一个名称，项目的全名称，可以是大写空格多个词，比如 Spring Boot Starter Parent，而 artifactId 是用来区分同一个groupId 下的子项目，比如前面对应的是 spring-boot-starter-parent。Ps：但是一般是实际使用中，我们可以把name的值赋成和artifactId一样的。	
 
 ```xml
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
